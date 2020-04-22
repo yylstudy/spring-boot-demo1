@@ -23,4 +23,5 @@ public class MyController {
     public String test2(){
         return "test2 master";
     }
+
 }
