@@ -17,7 +17,7 @@ public class MyController {
 
     @RequestMapping("/test1")
     public String test1(){
-        return "hello world master999"+env;
+        return "hello world 555555"+env;
     }
     @RequestMapping("/test2")
     public String test2(){
