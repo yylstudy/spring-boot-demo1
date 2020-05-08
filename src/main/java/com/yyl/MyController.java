@@ -12,12 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class MyController {
-    @Value("${k8s.env}")
-    private String env;
 
     @RequestMapping("/test1")
     public String test1(){
-        return "hello world bbb"+env;
+        return "hello world aaa";
     }
     @RequestMapping("/test2")
     public String test2(){
