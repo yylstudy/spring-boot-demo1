@@ -15,7 +15,7 @@ public class MyController {
 
     @RequestMapping("/test1")
     public String test1(){
-        return "hello world aaa";
+        return "hello world bbb";
     }
     @RequestMapping("/test2")
     public String test2(){
